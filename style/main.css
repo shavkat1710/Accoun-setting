@@ -1,0 +1,152 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #2F2F2F; 
+  font-family: 'Arial', 'sans-serif';
+}
+.wrapper{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #FDEC51;
+}
+.container{
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.account-top{
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.account-title{
+  font-size: 42px;
+  font-weight: bold;
+}
+.account-across{
+  padding-top: 5px;
+  background-color:#FDEC51 ;
+  border: none;
+  color: black;
+}
+.account-across:hover{
+  background-color: rgb(73, 65, 65);
+}
+.account-across:active{
+  background-color: rgb(197, 52, 52);
+}
+.chat-blog{
+  position: relative;
+  left: 120px;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ffff;
+  padding-left: 50px;
+  padding-bottom: 15px;
+}
+.main-logo{
+  border-radius: 50%;
+  position: relative;
+  bottom: 50px;
+}
+.user-label{
+  display: inline-block;
+  font-size: 24px;
+  color: #BDB7B4;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.user-name{
+  width: 700px;
+  border: none;
+  border-bottom: 1px solid #DFDFDF;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.names{
+  margin-top: 15px;
+   display: flex;
+}
+.first-label{
+  font-size: 24px;
+  color: #BDB7B4;
+  text-transform: uppercase;
+}
+.first-name{
+  width: 280px;
+  border: none;
+  border-bottom: 1px solid #DFDFDF;
+  font-size: 24px;
+}
+.last-label{
+  font-size: 24px;
+  color: #BDB7B4;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+.last-name{
+  width: 390px;
+  border: none;
+  border-bottom: 1px solid #DFDFDF;
+  font-size: 24px;
+  margin-left: 30px;
+}
+.email-label{
+  display: inline-block;
+  font-size: 24px;
+  color: #BDB7B4;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+.email-name{
+  width: 700px;
+  border: none;
+  border-bottom: 1px solid #DFDFDF;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.comment-label{
+  display: inline-block;
+  font-size: 24px;
+  color: #BDB7B4;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+.textarea{
+  border: none;
+  font-size: 24px;
+  border-bottom: 1px solid #DFDFDF;
+  color: #FDEC51;
+ resize: vertical;
+}
+footer{
+  height: 80px;
+}
+.buttons{
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 70px;
+  left: 400px;
+}
+.button-form{
+  border: none;
+  background-color: inherit;
+  font-size: 22px;
+  color: #6e6767;
+}
+.button-form:hover{
+  color: #141313;
+}

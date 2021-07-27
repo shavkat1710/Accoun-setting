@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account setting</title>
+  <link rel="stylesheet" href="style/minifier.css">
+  <!-- <link rel="stylesheet" href="style/nozmalize.css"> -->
+  <!-- <link rel="stylesheet" href="style/main.css"> -->
+</head>
+<body>
+  <div class="wrapper">
+    
+    <header>
+      <div class="container">
+        <div class="account">
+          <div class="account-top">
+            <h2 class="account-title">Account settings</h2>
+          <button class="account-across" type="button"><img src="image/cross.png" alt="cross" class="cross" width="25" height="25" ></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="chat-blog">
+        <img src="image/avatar.jpg" alt="" class="main-logo" width="150" height="150">
+        <form action="https://echo.htmlacademy.ru" method="GET">
+        <div class="user-name-section">
+          <label class="user-label" for="user-id" >Username</label>
+          <br>
+          <input class="user-name" id="user-id" name="User name" type="text" placeholder="Enter your username" autocomplete="off" required >
+        </div>
+        <div class="names">
+          <div class="first-div">
+            <label class="first-label" for="first-id">First name</label>
+          <br>
+          <input class="first-name" id="first-id" name="First name" type="text" placeholder="Enter your first name" autocomplete="off" required>
+          
+          </div>
+          <div class="last-div">
+            <label class="last-label" for="last-id">Last name</label>
+            <br>
+            <input class="last-name" id="last-id" name="Last name" type="text" placeholder="Enter your last name" autocomplete="off" required > 
+          </div>
+          
+         
+        
+        </div>
+        <div class="email-section">
+          <label class="email-label" for="email-id">Email</label>
+          <br>
+          <input class="email-name" id="email-id" name="Emai name" type="email" placeholder="Enter your email" autocomplete="off" required >
+        </div>
+        <div class="comment">
+          <label class="comment-label" for="comment-id">bio</label>
+          <br>
+          <textarea class="textarea" name="comment" id="comment-id"  cols="55" rows="6" placeholder="Tell us about yourself">
+          </textarea>
+        </div>
+        <div class="buttons">
+          <button class="button-form cancel" type="button">Cancel</button>
+          <button class="button-form save" type="submit">Save</button>
+        </div>
+        </form>
+      </div>
+    </main>
+      <footer>
+      </footer>  
+        
+        
+  </div> 
+</body>
+</html>
